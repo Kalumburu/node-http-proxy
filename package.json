@@ -34,7 +34,8 @@
     "test": "nyc --reporter=text --reporter=lcov npm run mocha"
   },
   "engines": {
-    "node": ">=4.0.0"
+    "node": "*",
+    "npm": "*"
   },
   "license": "MIT"
 }
